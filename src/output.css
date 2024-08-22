@@ -553,3 +553,13 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.bg-orange {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 158 12 / var(--tw-bg-opacity));
+}
+
+.bg-black-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(92 92 92 / var(--tw-bg-opacity));
+}

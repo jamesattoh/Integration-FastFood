@@ -3,8 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+
       colors:{
-        
+
         'red': '#F03328',
         'orange': '#FF9E0C',
 
@@ -25,9 +26,27 @@ module.exports = {
         'white':{
           default:'#FFFFFF',
           500:'#F5F5F5',
-        },
+        }
+      },
+      fontFamily:{
+        'nunito':['Nunito','sans-serif'],
+      },
 
+      fontSize: {
+        'display-1': ['72px', { fontWeight: '700' }],
+        'heading-1': ['56px', { fontWeight: '700' }],
+        'heading-2': ['48px', { fontWeight: '700' }],
+        'heading-3': ['32px', { fontWeight: '700' }],
+        'heading-4': ['24px', { fontWeight: '700' }],
+        'heading-4-uppercase': ['24px', { fontWeight: '700', textTransform: 'uppercase' }],
+        'paragraph-1': ['18px', { fontWeight: '400' }],
+        'paragraph-2': ['16px', { fontWeight: '400' }],
+        'button': ['20px', { fontWeight: '700' }],
+        'hyperlink': ['20px', { fontWeight: '600' }],
+      },
 
+      boxShadow:{
+        'custom-shadow':' 0px 4px 8px rgba(0,0,0, 0.15) ',
       }
     },
   },

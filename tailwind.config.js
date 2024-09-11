@@ -8,6 +8,7 @@ module.exports = {
 
         'red': '#F03328',
         'orange': '#FF9E0C',
+        'orange-gradient' : '#92400e',
 
         'black':{
           default:'#000000',
@@ -43,6 +44,7 @@ module.exports = {
         'paragraph-2': ['16px', { fontWeight: '400' }],
         'button': ['20px', { fontWeight: '700' }],
         'hyperlink': ['20px', { fontWeight: '600' }],
+        'heading-medium': ['20px', {fontWeight: '500'}],
       },
 
       boxShadow:{

@@ -28,10 +28,10 @@
     <main>
         <section class="bg-blue-400 flex">
             <div class="">
-                <div>
+                <div class="mb-7">
                     <div class="bg-red py-20">
                         <div>
-                            <h1>Desire <span class="text-white bg-gradient-to-r from-orange to-black-200 rounded-full px-9 py-4 inline-block -rotate-45">Food</span> </h1>
+                            <h1>Desire <span class="text-white-simple bg-gradient-to-r from-orange to-black-300 rounded-full px-9 py-4 inline-block -rotate-45">Food</span> </h1>
                         </div>
                         <h1 class="pt-8">For Your Taste</h1>
                         
@@ -40,19 +40,21 @@
                     forms and flavors, from fruits and vegetables to meats and grains.</p>
                 </div>
 
-                <a href="" class="text-white border-solid border-2 border-red rounded-full px-9 py-2 hover:text-orange hover:border-orange">Order Now</a>
+                <a href="" class="bg-red text-white-simple border-2 border-red rounded-full px-9 py-2.5 mt-10 hover:text-orange hover:border-orange">Order Now</a>
             </div>
 
-            <div class="flex">
-                <div>
-                    <img src="/assets/img/section1/la-fille-plateau.jpg" alt="l'une de nos jolies servantes">
+            <div class="flex relative">
+                <span class="bg-orange px-9 py-5 rounded-md static inline-block">
+                    <img class="inline-block" src="/assets/img/section1/la-fille-plateau.svg" alt="l'une de nos jolies servantes">
                     <div></div>
-                </div>
+                </span>
 
-                <div>
-                    <img src="/assets/img/section1/image-ali.jpg" alt="photo d'un de nos clients Ali">
+                <div class="absolute bottom-0 left-0 flex">
                     <div>
-                        <h2></h2>
+                        <img src="/assets/img/section1/image-ali.jpg" alt="photo d'un de nos clients Ali">
+                    </div>
+                    <div>
+                        <h2>Ali Ahmad</h2>
                         <div>
                             <img src="/assets/img/section1/image-star.jpg" alt="nos étoiles">
                             <p>4,5</p>
@@ -64,13 +66,15 @@
                     </div>
                 </div>
 
-                <div>
-                    <img src="/assets/img/section1/image-delivery.jpg" alt="notre rapidité de livraison">
+                <div class="absolute flex" >
+                    <div><img src="/assets/img/section1/image-delivery.jpg" alt="notre rapidité de livraison"></div>
                     <p>Delivery in 30 mint</p>
                 </div>
 
-                <div>
-                    <img src="/assets/img/section1/image-position.jpg" alt="notre maîtrise de la map">
+                <div class="absolute top-0 right-0">
+                    <div>
+                        <img src="/assets/img/section1/image-position.jpg" alt="notre maîtrise de la map">
+                    </div>
                     <p>Location at destination</p>
                 </div>
             </div>
@@ -300,7 +304,7 @@
 
             <div>
                 <img src="/assets/img/section4/back-vector.svg" alt="">
-                <img src="/assets/img/section4/image-chef.jpg" alt="">
+                <img src="/assets/img/section4/image-chef.svg" alt="">
             </div>
         </section>
 

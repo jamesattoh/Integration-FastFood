@@ -8,10 +8,9 @@ module.exports = {
 
         'red': '#F03328',
         'orange': '#FF9E0C',
-        'orange-gradient' : '#92400e',
 
         'black':{
-          default:'#000000',
+          'simple':'#000000',
           100:'#1F1F1F',
           300:'#3D3D3D',
           500:'#5C5C5C',
@@ -25,7 +24,7 @@ module.exports = {
         },
 
         'white':{
-          default:'#FFFFFF',
+          'simple':'#FFFFFF',
           500:'#F5F5F5',
         }
       },

@@ -8,6 +8,7 @@ module.exports = {
 
         'red': '#F03328',
         'orange': '#FF9E0C',
+        'orange-gradient': '#D58000',
 
         'black':{
           'simple':'#000000',

@@ -8,48 +8,53 @@
     <link rel="icon" type="img/svg+xml" href="/assets/image-logo.svg">
     <link href="./output.css" rel="stylesheet">
 </head> 
-<body class="font-nunito">
-    <header class="flex justify-around m-auto text-center py-11">
+<body class="font-nunito w-11/12 m-auto">
+    <header class="flex justify-around lg:justify-between m-auto items-center text-center py-11 bg-purple-300">     
+
         <div class="text-heading-2 flex" >
             <img src="/assets/image-logo.svg" alt="le logo de notre restaurant" class="h-12 mr-2 mt-2.5 ">
             <p class="text-red">Foo<strong class="text-orange">die</strong></p>
         </div>
 
-        <div class="text-heading-medium space-x-8 m-4 ">
+        <div class="hidden lg:flex text-heading-medium md:gap-12 m-auto bg-yellow-400 ">
             <a href="" class="text-black hover:text-red">Home</a>
             <a href="" class="text-black hover:text-red">Our Menu</a>
             <a href="" class="text-black hover:text-red">Foods</a>
             <a href="" class="text-black hover:text-red">About us</a>
             <a href="" class="text-black hover:text-red">Contact us</a>
+        </div>
+
+        <div class="bg-green-400">
             <a href="" class="text-red border-solid border-2 border-red rounded-full px-8 py-2 hover:text-orange hover:border-orange"><strong>Login</strong></a>
         </div>
     </header>
 
-    <main>
-        <section class="bg-blue-400 flex">
-            <div>
-                
-                    <div class="bg-red py-6 text-heading-1 inline-block">
-                        <div class="bg-blue-400">
-                            <h1>Desire <span class="text-white-simple bg-gradient-to-r from-orange to-orange-gradient rounded-full px-12 inline-block -rotate-[15deg]">Food</span> </h1>
-                        </div>
-                        <h1 class="pt-8 bg-blue-300">For Your Taste</h1>
-                        
-                    </div>
-                    <p class="text-paragraph-1 text-gray-700 inline-block">Food is what we eat to stay alive and healthy. It comes in many different 
-                    forms and flavors, from fruits and vegetables to meats and grains.</p>
-                
+    <main class="">
+        <div class="flex flex-col lg:flex-row mt-6 bg-blue-300 p-16 lg:p-4 space-y-20 lg:gap-6 lg:justify-between">
 
-                <div class="mt-3 mb-9">
-                    <a href="" class=" bg-red text-white-simple border-2 border-red rounded-full px-9 py-2.5 hover:text-orange hover:border-orange ">Order Now</a>
+            <div class="flex-1 flex flex-col lg:justify-center justify-between gap-4 bg-yellow-400 pb-3 text-center lg:text-left">
+                
+                <div class=" bg-red text-heading-1">
+                        <div class=" bg-green-300 py-5 ">
+                            <h1>Desire <span class="text-white-simple bg-gradient-to-r from-orange to-orange-gradient rounded-full px-9 inline-block -rotate-[12deg]">Food</span> </h1>
+                        </div>
+                        <h1 class="bg-purple-300">For Your Taste</h1>
+                </div>
+                
+                <div>
+                    <p class=" text-paragraph-1 text-gray-700 w-100 inline">Food is what we eat to stay alive and healthy. It <br> comes in many different forms and flavors, from <br> fruits and vegetables to meats and grains.</p>
+                </div>
+                    
+
+                <div class="mt-8">
+                    <a href="" class=" bg-red text-white-simple border-2 border-red rounded-full px-8 py-2.5 hover:text-orange hover:border-orange ">Order Now</a>
                 </div>
             </div>
 
-            <div class="flex relative">
+            <div class="flex flex-1 relative bg-orange rounded-[70px] lg:py-56 h-3/4 w-[100%] py-60 justify-center items-center m-auto">
+                        <img class="lg:h-auto  absolute bottom-0 object-contain h-[110%]" src="/assets/img/section1/la-fille-plateau.svg" alt="l'une de nos jolies servantes">                    
                 
-                    <img class="inline-block" src="/assets/img/section1/bg-orange.svg" alt="l'une de nos jolies servantes">
-                
-                <div class="absolute -left-[80px] bottom-0 flex py-1 px-3 bg-white-simple rounded-[12px]">
+                <div class="absolute -left-[40px] -bottom-5 flex py-2 px-9 bg-white-simple rounded-[12px] shadow-lg">
                     <div>
                         <img class="rounded-full border border-black-100" src="/assets/img/section1/image-ali.jpg" alt="photo d'un de nos clients Ali">
                     </div>
@@ -57,9 +62,9 @@
 
                         <h2 class="inline-block ">Ali Ahmad</h2>
 
-                        <div class="flex gap-2">
+                        <div class="flex gap-2 ">
                             <div class="flex">
-                                <img class="inline-block" src="/assets/img/section1/image-star.jpg" alt="nos étoiles">
+                                <img class="inline-block h-5" src="/assets/img/section1/image-star.jpg" alt="nos étoiles">
                                 <p>4,5</p>
                             </div>
                             <div class="flex">
@@ -70,7 +75,7 @@
                     </div>
                 </div>
 
-                <div class="absolute -left-[50px] top-20 flex py-1 px-2 bg-white-simple rounded-[12px]" >
+                <div class="absolute -left-[50px] top-20 flex py-3 px-7 bg-white-simple rounded-[12px] shadow-lg">
                 <div><img src="/assets/img/section1/image-delivery.jpg" alt="notre rapidité de livraison"></div>
                     <div class="px-1">
                         <p>Delivery </p>
@@ -78,7 +83,7 @@
                     </div>
                 </div>
 
-                <div class="absolute top-0 -right-14 flex py-1 px-3 bg-white-simple rounded-[12px]">
+                <div class="absolute bottom-5 -right-10 flex py-3 px-9 bg-white-simple rounded-[12px] shadow-lg">
                     <div>
                         <img src="/assets/img/section1/image-position.jpg" alt="notre maîtrise de la map">
                     </div>
@@ -88,41 +93,49 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section>
-            <div>
-                <img src="/assets/img/section2-1/image-certified.jpg" alt="certification">
-                <p>Quality Food <br>
-                Contrary to popular belief, Lorem Ipsum is not simply random text <br>
-                <a href="">Learn More</a>
+        <div class="bg-rose-300 mt-20 grid grid-cols-4 h-96 gap-4 place-content-around px-9">
+            <div class="border border-slate-100 rounded-lg py-4 bg-red text-center">
+                <div class="flex justify-center items-center bg-yellow-400 ">
+                    <img src="/assets/img/section2-1/image-certified.jpg" alt="certification">
+                </div>
+                <p class="pt-6 bg-green-600">Quality Food <br>
+                Contrary to popular belief, <br> Lorem Ipsum is not simply <br>random text <br>
+                <a class="inline-block pt-10" href="">Learn More</a>
                 </p>
             </div>
 
-            <div>
-                <img src="/assets/img/section2-1/image-speed.jpg" alt="rapidité">
-                <p>Quality Food <br>
-                Contrary to popular belief, Lorem Ipsum is not simply random text <br>
-                <a href="">Learn More</a>
+            <div class="border border-slate-100 rounded-lg py-4 bg-red text-center">
+                <div class="flex justify-center items-center bg-yellow-400 "> 
+                    <img src="/assets/img/section2-1/image-speed.jpg" alt="rapidité">
+                </div>
+                <p class="pt-6 bg-green-600">Quality Food <br>
+                Contrary to popular belief, <br> Lorem Ipsum is not simply <br>random text <br>
+                <a class="inline-block pt-10" href="">Learn More</a>
                 </p>
             </div>
 
-            <div>
-                <img src="/assets/img/section2-1/image-wallet.jpg" alt="économie">
-                <p>Quality Food <br>
-                Contrary to popular belief, Lorem Ipsum is not simply random text <br>
-                <a href="">Learn More</a>
+            <div class="border border-slate-100 rounded-lg py-4 bg-red text-center">
+                <div class="flex justify-center items-center bg-yellow-400 "> 
+                    <img src="/assets/img/section2-1/image-wallet.jpg" alt="économie"> 
+                </div>
+                <p class="pt-6 bg-green-600">Quality Food <br>
+                Contrary to popular belief, <br> Lorem Ipsum is not simply <br>random text <br>
+                <a class="inline-block pt-10" href="">Learn More</a>
                 </p>
             </div>
 
-            <div>
-                <img src="/assets/img/section2-1/image-phone.jpg" alt="simplification">
-                <p>Quality Food <br>
-                Contrary to popular belief, Lorem Ipsum is not simply random text <br>
-                <a href="">Learn More</a>
+            <div class="border border-slate-100 rounded-lg py-4 bg-red text-center">
+                <div class="flex justify-center items-center bg-yellow-400 ">
+                     <img src="/assets/img/section2-1/image-phone.jpg" alt="simplification">
+                </div>
+                <p class="pt-6 bg-green-600">Quality Food <br>
+                Contrary to popular belief, <br>Lorem Ipsum is not simply <br>random text <br>
+                <a class="inline-block pt-10" href="">Learn More</a>
                 </p>
             </div>
-        </section>
+        </div>
 
         <section>
             <img src="/assets/img/section2-2/image-salad.jpg" alt="comment nos plats sont présentés">
@@ -357,4 +370,4 @@
         </div>
     </footer>
 </body>
-</html>
+</html>                                                     

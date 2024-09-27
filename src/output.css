@@ -791,6 +791,10 @@ video {
   margin-bottom: calc(9rem * var(--tw-space-y-reverse));
 }
 
+.overflow-visible{
+  overflow: visible;
+}
+
 .text-nowrap{
   text-wrap: nowrap;
 }

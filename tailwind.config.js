@@ -38,6 +38,7 @@ module.exports = {
         'heading-1': ['56px', { fontWeight: '700' }],
         'heading-2': ['48px', { fontWeight: '700' }],
         'heading-3': ['32px', { fontWeight: '700' }],
+        'heading-3-variant': ['32px', { fontWeight: '500' }],
         'heading-4': ['24px', { fontWeight: '700' }],
         'heading-4-uppercase': ['24px', { fontWeight: '700', textTransform: 'uppercase' }],
         'paragraph-1': ['18px', { fontWeight: '400' }],

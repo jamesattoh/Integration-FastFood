@@ -5,70 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodie-Restaurant</title>
 
-    <link rel="icon" type="img/svg+xml" href="/assets/image-logo.svg">
+    <link rel="icon" type="img/svg+xml" href="/src/assets/image-logo.svg">
     <link href="./output.css" rel="stylesheet">
 </head> 
 <body class="font-nunito w-11/12 m-auto">
-    <header class="flex justify-around lg:justify-between m-auto items-center text-center py-11 bg-purple-300">     
+    <header class="sticky top-0 z-40 bg-white-simple flex justify-around lg:justify-between m-auto items-center text-center py-10">     
 
         <div class="text-heading-2 flex" >
-            <img src="/assets/image-logo.svg" alt="le logo de notre restaurant" class="h-12 mr-2 mt-2.5 ">
+            <img src="/src/assets/image-logo.svg" alt="le logo de notre restaurant" class="h-12 mr-2 mt-2.5 ">
             <p class="text-red">Foo<strong class="text-orange">die</strong></p>
         </div>
 
-        <div class="hidden lg:flex text-heading-medium md:gap-12 m-auto bg-yellow-400 ">
-            <a href="" class="text-black hover:text-red">Home</a>
-            <a href="" class="text-black hover:text-red">Our Menu</a>
-            <a href="" class="text-black hover:text-red">Foods</a>
-            <a href="" class="text-black hover:text-red">About us</a>
-            <a href="" class="text-black hover:text-red">Contact us</a>
+        <div class="hidden lg:flex text-heading-medium md:gap-12 m-auto text-gray-600">
+            <a href="#home" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">Home</a>
+            <a href="#choose" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">Our Menu</a>
+            <a href="#foods" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">Foods</a>
+            <a href="#about" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">About us</a>
+            <a href="#contact" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">Contact us</a>
         </div>
 
-        <div class="bg-green-400">
-            <a href="" class="text-red border-solid border-2 border-red rounded-full px-8 py-2 hover:text-orange hover:border-orange"><strong>Login</strong></a>
+        <div class="">
+            <a href="" class=" text-hyperlink text-red border-solid border-2 border-red rounded-full px-8 py-2 hover:text-orange hover:border-orange"><strong>Login</strong></a>
         </div>
     </header>
 
     <main class="">
-        <div class="flex flex-col lg:flex-row mt-6 bg-blue-300 p-16 lg:p-4 space-y-20 lg:gap-6 lg:justify-between">
+        <div id="home" class="flex flex-col lg:flex-row mt-6  p-16 lg:p-4 space-y-36 lg:gap-6 lg:justify-between">
 
-            <div class="flex-1 flex flex-col lg:justify-center justify-between gap-4 bg-yellow-400 pb-3 text-center lg:text-left">
+            <div class="flex-1 flex flex-col lg:justify-center justify-between gap-4  pb-3 text-center lg:text-left">
                 
-                <div class=" bg-red text-heading-1">
-                        <div class=" bg-green-300 py-5 ">
+                <div class="text-heading-1">
+                        <div class="py-5 ">
                             <h1>Desire <span class="text-white-simple bg-gradient-to-r from-orange to-orange-gradient rounded-full px-9 inline-block -rotate-[12deg]">Food</span> </h1>
                         </div>
-                        <h1 class="bg-purple-300">For Your Taste</h1>
+                        <h1 class="">For Your Taste</h1>
                 </div>
                 
                 <div>
-                    <p class=" text-paragraph-1 text-gray-700 w-100 inline">Food is what we eat to stay alive and healthy. It <br> comes in many different forms and flavors, from <br> fruits and vegetables to meats and grains.</p>
+                    <p class=" text-paragraph-1 text-gray-500 w-100 inline">Food is what we eat to stay alive and healthy. It <br> comes in many different forms and flavors, from <br> fruits and vegetables to meats and grains.</p>
                 </div>
                     
 
                 <div class="mt-8">
-                    <a href="" class=" bg-red text-white-simple border-2 border-red rounded-full px-8 py-2.5 hover:text-orange hover:border-orange ">Order Now</a>
+                    <a href="" class=" bg-red text-white-simple border-2 border-red rounded-full px-8 py-2.5 text-button">Order Now</a>
                 </div>
             </div>
 
             <div class="flex flex-1 relative bg-orange rounded-[70px] lg:py-56 h-3/4 w-[100%] py-60 justify-center items-center m-auto">
-                        <img class="lg:h-auto  absolute bottom-0 object-contain h-auto w-auto" src="/assets/img/section1/la-fille-plateau.svg" alt="l'une de nos jolies servantes">                    
+                        <img class="lg:h-auto  absolute bottom-0 object-contain h-auto w-auto" src="/src/assets/img/section1/la-fille-plateau.svg" alt="l'une de nos jolies servantes">                    
                 
                 <div class="absolute -left-[40px] -bottom-5 flex py-2 px-9 bg-white-simple rounded-[12px] shadow-custom-shadow">
                     <div>
-                        <img class="rounded-full border border-black-100" src="/assets/img/section1/image-ali.jpg" alt="photo d'un de nos clients Ali">
+                        <img class="rounded-full border border-black-100" src="/src/assets/img/section1/image-ali.jpg" alt="photo d'un de nos clients Ali">
                     </div>
                     <div class="space-y-2.5 pl-3">
 
-                        <h2 class="inline-block ">Ali Ahmad</h2>
+                        <h2 class="inline-block text-hyperlink">Ali Ahmad</h2>
 
-                        <div class="flex gap-2 ">
+                        <div class="flex gap-2 text-gray-500">
                             <div class="flex">
-                                <img class="inline-block h-5" src="/assets/img/section1/image-star.jpg" alt="nos étoiles">
+                                <img class="inline-block h-5" src="/src/assets/img/section1/image-star.jpg" alt="nos étoiles">
                                 <p>4,5</p>
                             </div>
                             <div class="flex">
-                                <img src="/assets/img/section1/image-heart.svg" alt="nos likes">
+                                <img src="/src/assets/img/section1/image-heart.svg" alt="nos likes">
                                 <p>1k Likes</p>
                             </div>
                         </div>
@@ -76,99 +76,99 @@
                 </div>
 
                 <div class="absolute -left-[50px] top-20 flex py-3 px-7 bg-white-simple rounded-[12px] shadow-custom-shadow">
-                <div><img src="/assets/img/section1/image-delivery.jpg" alt="notre rapidité de livraison"></div>
+                <div><img src="/src/assets/img/section1/image-delivery.jpg" alt="notre rapidité de livraison"></div>
                     <div class="px-1">
-                        <p>Delivery </p>
-                        <p>in 30 mint</p>
+                        <p class="text-hyperlink">Delivery </p>
+                        <p class="text-gray-500">in 30 mint</p>
                     </div>
                 </div>
 
                 <div class="absolute bottom-5 -right-10 flex py-3 px-9 bg-white-simple rounded-[12px] shadow-custom-shadow">
                     <div>
-                        <img src="/assets/img/section1/image-position.jpg" alt="notre maîtrise de la map">
+                        <img src="/src/assets/img/section1/image-position.jpg" alt="notre maîtrise de la map">
                     </div>
                     <div class="pl-3">
-                        <p>Location </p>
-                        <p>at destination</p>
+                        <p class="text-hyperlink">Location </p>
+                        <p class="text-gray-500"> at destination</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="bg-rose-300 mt-20 pb-20 lg:pb-16 grid grid-cols-1 lg:grid-cols-4 gap-10 lg:gap-6 lg:px-4">
-            <div class="bg-red m-auto mt-8 flex flex-col text-center p-4 lg:p-0 rounded-[15px] w-[75%] lg:w-full h-full justify-center shadow-custom-shadow">
-                <div class="flex justify-center items-center bg-yellow-400">
-                    <img class="h-48 lg:h-auto "  src="/assets/img/section2-1/image-certified.jpg" alt="certification">
+        <div class=" mt-20 pb-20 lg:pb-16 grid grid-cols-1 lg:grid-cols-4 gap-10 lg:gap-6 lg:px-4">
+            <div class="m-auto mt-8 flex flex-col text-center p-4 lg:p-0 rounded-[15px] w-[75%] lg:w-full h-full justify-center shadow-custom-shadow">
+                <div class="flex justify-center items-center ">
+                    <img class="h-48 lg:h-auto "  src="/src/assets/img/section2-1/image-certified.jpg" alt="certification">
                 </div>
-                <p class="pt-6 bg-green-600"><span class="text-heading-medium">Quality Food </span><br>
+                <p class="pt-6 text-paragraph-2 text-gray-500"><span class="text-heading-3 text-black-simple">Quality Food </span><br>
                 Contrary to popular belief, <br> Lorem Ipsum is not simply <br>random text <br>
-                <a class="inline-block pt-10" href="">Learn More</a>
+                <a class="inline-block pt-10 text-heading-medium text-black-simple hover:text-red" href="">Learn More</a>
                 </p>
             </div>
 
-            <div class="bg-red m-auto mt-8 flex flex-col text-center p-4 lg:p-0 rounded-[15px] w-[75%] lg:w-full h-full justify-center shadow-custom-shadow ">
-                <div class="flex justify-center items-center  bg-yellow-400 "> 
-                    <img class="h-48 lg:h-auto " src="/assets/img/section2-1/image-speed.jpg" alt="rapidité">
+            <div class="m-auto mt-8 flex flex-col text-center p-4 lg:p-0 rounded-[15px] w-[75%] lg:w-full h-full justify-center shadow-custom-shadow ">
+                <div class="flex justify-center items-center   "> 
+                    <img class="h-48 lg:h-auto " src="/src/assets/img/section2-1/image-speed.jpg" alt="rapidité">
                 </div>
-                <p class="pt-6 bg-green-600"><span class="text-heading-medium">Quality Food </span><br>
+                <p class="pt-6 text-paragraph-2 text-gray-500"><span class="text-heading-3 text-black-simple">Quality Food </span><br>
                 Contrary to popular belief, <br> Lorem Ipsum is not simply <br>random text <br>
-                <a class="inline-block pt-10" href="">Learn More</a>
+                <a class="inline-block pt-10 text-heading-medium text-black-simple hover:text-red" href="">Learn More</a>
                 </p>
             </div>
 
-            <div class="bg-red m-auto mt-8 flex flex-col text-center p-4 lg:p-0 rounded-[15px] w-[75%] lg:w-full h-full justify-center shadow-custom-shadow">
-                <div class="flex justify-center items-center  bg-yellow-400 "> 
-                    <img class="h-48 lg:h-auto " src="/assets/img/section2-1/image-wallet.jpg" alt="économie"> 
+            <div class="m-auto mt-8 flex flex-col text-center p-4 lg:p-0 rounded-[15px] w-[75%] lg:w-full h-full justify-center shadow-custom-shadow">
+                <div class="flex justify-center items-center   "> 
+                    <img class="h-48 lg:h-auto " src="/src/assets/img/section2-1/image-wallet.jpg" alt="économie"> 
                 </div>
-                <p class="pt-6 bg-green-600"><span class="text-heading-medium">Quality Food </span><br>
+                <p class="pt-6 text-paragraph-2 text-gray-500"><span class="text-heading-3 text-black-simple">Quality Food </span><br>
                 Contrary to popular belief, <br> Lorem Ipsum is not simply <br>random text <br>
-                <a class="inline-block pt-10" href="">Learn More</a>
+                <a class="inline-block pt-10 text-heading-medium text-black-simple hover:text-red" href="">Learn More</a>
                 </p>
             </div>
 
-            <div class=" bg-red m-auto mt-8 flex flex-col text-center p-4 lg:p-0 rounded-[15px] w-[75%] lg:w-full h-full justify-center shadow-custom-shadow">
-                <div class="flex justify-center items-center  bg-yellow-400 ">
-                     <img class="h-48 lg:h-auto " src="/assets/img/section2-1/image-phone.jpg" alt="simplification">
+            <div class=" m-auto mt-8 flex flex-col text-center p-4 lg:p-0 rounded-[15px] w-[75%] lg:w-full h-full justify-center shadow-custom-shadow">
+                <div class="flex justify-center items-center   ">
+                     <img class="h-48 lg:h-auto " src="/src/assets/img/section2-1/image-phone.jpg" alt="simplification">
                 </div>
-                <p class="pt-6 bg-green-600">Quality Food <br>
+                <p class="pt-6 text-paragraph-2 text-gray-500"><span class="text-heading-3 text-black-simple">Quality Food </span><br>
                 Contrary to popular belief, <br>Lorem Ipsum is not simply <br>random text <br>
-                <a class="inline-block pt-10" href="">Learn More</a>
+                <a class="inline-block pt-10 text-heading-medium text-black-simple hover:text-red" href="">Learn More</a>
                 </p>
             </div>
         </div>
 
-        <section class="mt-6 flex flex-col lg:flex-row gap-4 bg-green-400">
-            <div class="flex flex-1 rounded-[15px] bg-red m-auto">
-                <img class="rounded-[15px]" src="/assets/img/section2-2/image-salad.jpg" alt="comment nos plats sont présentés">
+        <section id="choose" class="flex flex-col lg:flex-row gap-4 mt-32">
+            <div class="flex flex-1 rounded-[15px] m-auto">
+                <img class="rounded-[15px]" src="/src/assets/img/section2-2/image-salad.jpg" alt="comment nos plats sont présentés">
             </div>
 
-            <div class="flex flex-1 flex-col bg-purple-300 text-center p-8 m-auto justify-center gap-4">
+            <div class="flex flex-1 flex-col  text-center p-8 m-auto justify-center gap-4">
 
-                <h2 class="text-heading-2 bg-yellow-400 lg:text-nowrap">Why People Choose us?</h2>
+                <h2 class="text-heading-2  lg:text-nowrap">Why People Choose us?</h2>
 
-                <div class="bg-green-500 flex justify-between rounded-[10px] px-3 gap-4 py-2 shadow-custom-shadow">
+                <div class=" flex justify-between rounded-[10px] px-3 gap-4 py-2 shadow-custom-shadow">
                     <div class="rounded-full bg-white-simple m-auto p-4 shadow-custom-shadow">
-                        <img class="w-auto h-auto" src="/assets/img/section2-2/icons/deliver.jpg" alt="nos livreurs expérimentés">
+                        <img class="w-auto h-auto" src="/src/assets/img/section2-2/icons/deliver.jpg" alt="nos livreurs expérimentés">
                     </div>
-                    <p class="bg-orange text-left"> <span class="text-heading-medium">Convenient and Reliable </span><br>
+                    <p class="text-left text-gray-600"> <span class="text-heading-3-variant text-black-simple">Convenient and Reliable </span><br>
                     Whether you dine in, take out, or order delivery, our service is convenient, fast, and reliable, making mealtime hassle-free.
                     </p>
                 </div>
 
-                <div class="bg-green-500 flex justify-between rounded-[10px] px-3 gap-4 py-2 shadow-custom-shadow">
+                <div class=" flex justify-between rounded-[10px] px-3 gap-4 py-2 shadow-custom-shadow">
                     <div class="rounded-full bg-white-simple m-auto p-4 shadow-custom-shadow"> 
-                        <img class="w-auto h-auto" src="/assets/img/section2-2/icons/option.jpg" alt="variété de nos options">
+                        <img class="w-auto h-auto" src="/src/assets/img/section2-2/icons/option.jpg" alt="variété de nos options">
                     </div>
-                    <p class="bg-orange text-left"><span class="text-heading-medium">Variety of Options </span><br>
+                    <p class="text-left text-gray-600"><span class="text-heading-3-variant text-black-simple">Variety of Options </span><br>
                         From hearty meals to light snacks, we offer a wide range of options to suit every taste and craving.
                     </p>
                 </div>
 
-                <div class="bg-green-500 flex justify-between rounded-[10px] px-3 gap-4 py-2 shadow-custom-shadow">
+                <div class=" flex justify-between rounded-[10px] px-3 gap-4 py-2 shadow-custom-shadow">
                     <div class="rounded-full bg-white-simple m-auto p-4 shadow-custom-shadow">
-                        <img class="w-auto h-auto"src="/assets/img/section2-2/icons/burger.jpg" alt="la particularité de nos burgers">
+                        <img class="w-auto h-auto"src="/src/assets/img/section2-2/icons/burger.jpg" alt="la particularité de nos burgers">
                     </div>
-                    <p class="bg-orange text-left"> Eat Burger <br>
+                    <p class="text-left text-gray-600"> <span class="text-heading-3-variant text-black-simple">Eat Burger</span> <br>
                         Our burgers are grilled to perfection, with juicy patties and flavorful toppings that make every bite a delicious experience.
                     </p>
                 </div>
@@ -176,197 +176,197 @@
             </div>
         </section>
 
-        <section class="flex flex-col bg-amber-700 mt-10 text-center">
-            <p class="bg-yellow-300 text-paragraph-1 pb-10"> <span class="text-heading-2">Our best Seller Dishes🔥🔥 </span><br>
-                Our fresh garden salad is a light and refreshing option. It features a mix of crisp lettuce, juicy tomatoe all tossed in your choice of dressing.
+        <section id="foods" class="flex flex-col  mt-32 lg:mt-40 text-center">
+            <p class=" text-paragraph-1 pb-10 "> <span class="text-heading-2">Our best Seller Dishes🔥🔥 </span><br>
+                <span class="text-gray-500">Our fresh garden salad is a light and refreshing option. It features a mix of crisp lettuce, juicy tomatoe all tossed in your choice of dressing.</span>
             </p>
 
-            <div class=" bg-rose-300 pb-20 lg:pb-16 grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-12 lg:px-10">
-                <div class="bg-red m-auto mt-6 rounded-b-[15px] lg:w-full h-full justify-between shadow-custom-shadow">
+            <div class="  pb-20 lg:pb-16 grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-12 lg:px-10">
+                <div class="m-auto mt-6 rounded-b-[15px] lg:w-full h-full justify-between shadow-custom-shadow">
 
-                    <div class="flex justify-center items-center bg-yellow-400">
-                        <img class="w-auto h-auto" src="/assets/img/section3/plate1.jpg" alt="photo d'un premier plat">
+                    <div class="flex justify-center items-center ">
+                        <img class="w-auto h-auto" src="/src/assets/img/section3/plate1.jpg" alt="photo d'un premier plat">
                     </div>
 
-                    <div class="bg-green-400 grid grid-cols-2 gap-7 py-6 justify-between">
-                        <div class="text-heading-medium bg-emerald-600 ">
+                    <div class=" grid grid-cols-2 gap-7 py-6 justify-between">
+                        <div class="text-heading-medium">
                             Breakfast Food
                         </div>
 
-                        <div class="bg-yellow-300 py-2">
-                            <a class="bg-red text-white-simple border-2 border-red rounded-full px-8 py-2.5 m-auto items-center" href="">Buy Now</a>
+                        <div class=" py-2">
+                            <a class="text-hyperlink bg-red text-white-simple border-2 border-red rounded-full px-6 py-2.5 m-auto items-center" href="">Buy Now</a>
                         </div>
                         
-                        <div class="flex gap-1 bg-purple-300 p-4">
+                        <div class="flex gap-1  p-4">
                             
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
                             
                         </div>
 
-                        <div class="text-heading-3 bg-yellow-400 ">
+                        <div class="text-heading-3  ">
                             $230
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-red m-auto mt-6 rounded-b-[15px] lg:w-full h-full justify-between shadow-custom-shadow">
+                <div class="m-auto mt-6 rounded-b-[15px] lg:w-full h-full justify-between shadow-custom-shadow">
 
-                    <div class="flex justify-center items-center bg-yellow-400">
-                        <img class="w-auto h-auto" src="/assets/img/section3/plate2.jpg" alt="photo d'un premier plat">
+                    <div class="flex justify-center items-center ">
+                        <img class="w-auto h-auto" src="/src/assets/img/section3/plate2.jpg" alt="photo d'un premier plat">
                     </div>
 
-                    <div class="bg-green-400 grid grid-cols-2 gap-7 py-6 justify-between">
-                        <div class="text-heading-medium bg-emerald-600 ">
+                    <div class=" grid grid-cols-2 gap-7 py-6 justify-between">
+                        <div class="text-heading-medium">
                             Breakfast Food
                         </div>
 
-                        <div class="bg-yellow-300 py-2">
-                            <a class="bg-red text-white-simple border-2 border-red rounded-full px-8 py-2.5 m-auto items-center" href="">Buy Now</a>
+                        <div class=" py-2">
+                            <a class="text-hyperlink bg-red text-white-simple border-2 border-red rounded-full px-6 py-2.5 m-auto items-center" href="">Buy Now</a>
                         </div>
                         
-                        <div class="flex gap-1 bg-purple-300 p-4">
+                        <div class="flex gap-1  p-4">
                             
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            
-                        </div>
-
-                        <div class="text-heading-3 bg-yellow-400 ">
-                            $230
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="bg-red m-auto mt-6 rounded-b-[15px] lg:w-full h-full justify-between shadow-custom-shadow">
-
-                    <div class="flex justify-center items-center bg-yellow-400">
-                        <img class="w-auto h-auto" src="/assets/img/section3/plate3.jpg" alt="photo d'un premier plat">
-                    </div>
-
-                    <div class="bg-green-400 grid grid-cols-2 gap-7 py-6 justify-between">
-                        <div class="text-heading-medium bg-emerald-600 ">
-                            Breakfast Food
-                        </div>
-
-                        <div class="bg-yellow-300 py-2">
-                            <a class="bg-red text-white-simple border-2 border-red rounded-full px-8 py-2.5 m-auto items-center" href="">Buy Now</a>
-                        </div>
-                        
-                        <div class="flex gap-1 bg-purple-300 p-4">
-                            
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
                             
                         </div>
 
-                        <div class="text-heading-3 bg-yellow-400 ">
+                        <div class="text-heading-3  ">
                             $230
                         </div>
                     </div>
                 </div>
 
 
-                <div class="bg-red m-auto mt-6 rounded-b-[15px] lg:w-full h-full justify-between shadow-custom-shadow">
+                <div class="m-auto mt-6 rounded-b-[15px] lg:w-full h-full justify-between shadow-custom-shadow">
 
-                    <div class="flex justify-center items-center bg-yellow-400">
-                        <img class="w-auto h-auto" src="/assets/img/section3/plate4.jpg" alt="photo d'un premier plat">
+                    <div class="flex justify-center items-center ">
+                        <img class="w-auto h-auto" src="/src/assets/img/section3/plate3.jpg" alt="photo d'un premier plat">
                     </div>
 
-                    <div class="bg-green-400 grid grid-cols-2 gap-7 py-6 justify-between">
-                        <div class="text-heading-medium bg-emerald-600 ">
+                    <div class=" grid grid-cols-2 gap-7 py-6 justify-between">
+                        <div class="text-heading-medium">
                             Breakfast Food
                         </div>
 
-                        <div class="bg-yellow-300 py-2">
-                            <a class="bg-red text-white-simple border-2 border-red rounded-full px-8 py-2.5 m-auto items-center" href="">Buy Now</a>
+                        <div class=" py-2">
+                            <a class="text-hyperlink bg-red text-white-simple border-2 border-red rounded-full px-6 py-2.5 m-auto items-center" href="">Buy Now</a>
                         </div>
                         
-                        <div class="flex gap-1 bg-purple-300 p-4">
+                        <div class="flex gap-1  p-4">
                             
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
                             
                         </div>
 
-                        <div class="text-heading-3 bg-yellow-400 ">
+                        <div class="text-heading-3  ">
                             $230
                         </div>
                     </div>
                 </div>
 
 
-                <div class="bg-red m-auto mt-6 rounded-b-[15px] lg:w-full h-full justify-between shadow-custom-shadow">
+                <div class="m-auto mt-6 rounded-b-[15px] lg:w-full h-full justify-between shadow-custom-shadow">
 
-                    <div class="flex justify-center items-center bg-yellow-400">
-                        <img class="w-auto h-auto" src="/assets/img/section3/plate5.jpg" alt="photo d'un premier plat">
+                    <div class="flex justify-center items-center ">
+                        <img class="w-auto h-auto" src="/src/assets/img/section3/plate4.jpg" alt="photo d'un premier plat">
                     </div>
 
-                    <div class="bg-green-400 grid grid-cols-2 gap-7 py-6 justify-between">
-                        <div class="text-heading-medium bg-emerald-600 ">
+                    <div class=" grid grid-cols-2 gap-7 py-6 justify-between">
+                        <div class="text-heading-medium">
                             Breakfast Food
                         </div>
 
-                        <div class="bg-yellow-300 py-2">
-                            <a class="bg-red text-white-simple border-2 border-red rounded-full px-8 py-2.5 m-auto items-center" href="">Buy Now</a>
+                        <div class=" py-2">
+                            <a class="text-hyperlink bg-red text-white-simple border-2 border-red rounded-full px-6 py-2.5 m-auto items-center" href="">Buy Now</a>
                         </div>
                         
-                        <div class="flex gap-1 bg-purple-300 p-4">
+                        <div class="flex gap-1  p-4">
                             
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
                             
                         </div>
 
-                        <div class="text-heading-3 bg-yellow-400 ">
+                        <div class="text-heading-3  ">
                             $230
                         </div>
                     </div>
                 </div>
 
 
-                <div class="bg-red m-auto mt-6 rounded-b-[15px] lg:w-full h-full justify-between shadow-custom-shadow">
+                <div class="m-auto mt-6 rounded-b-[15px] lg:w-full h-full justify-between shadow-custom-shadow">
 
-                    <div class="flex justify-center items-center bg-yellow-400">
-                        <img class="w-auto h-auto" src="/assets/img/section3/plate6.jpg" alt="photo d'un premier plat">
+                    <div class="flex justify-center items-center ">
+                        <img class="w-auto h-auto" src="/src/assets/img/section3/plate5.jpg" alt="photo d'un premier plat">
                     </div>
 
-                    <div class="bg-green-400 grid grid-cols-2 gap-7 py-6 justify-between">
-                        <div class="text-heading-medium bg-emerald-600 ">
+                    <div class=" grid grid-cols-2 gap-7 py-6 justify-between">
+                        <div class="text-heading-medium">
                             Breakfast Food
                         </div>
 
-                        <div class="bg-yellow-300 py-2">
-                            <a class="bg-red text-white-simple border-2 border-red rounded-full px-8 py-2.5 m-auto items-center" href="">Buy Now</a>
+                        <div class=" py-2">
+                            <a class="bg-red text-white-simple border-2 border-red rounded-full px-6 text-hyperlink py-2.5 m-auto items-center" href="">Buy Now</a>
                         </div>
                         
-                        <div class="flex gap-1 bg-purple-300 p-4">
+                        <div class="flex gap-1  p-4">
                             
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
-                            <img src="/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
                             
                         </div>
 
-                        <div class="text-heading-3 bg-yellow-400 ">
+                        <div class="text-heading-3  ">
+                            $230
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class=" m-auto mt-6 rounded-b-[15px] lg:w-full h-full justify-between shadow-custom-shadow">
+
+                    <div class="flex justify-center items-center ">
+                        <img class="w-auto h-auto" src="/src/assets/img/section3/plate6.jpg" alt="photo d'un premier plat">
+                    </div>
+
+                    <div class=" grid grid-cols-2 gap-7 py-6 justify-between">
+                        <div class="text-heading-medium">
+                            Breakfast Food
+                        </div>
+
+                        <div class=" py-2">
+                            <a class="bg-red text-white-simple border-2 border-red rounded-full px-6 text-hyperlink py-2.5 m-auto items-center" href="">Buy Now</a>
+                        </div>
+                        
+                        <div class="flex gap-1  p-4">
+                            
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            <img src="/src/assets/img/section3/star.svg" alt="la note des plats">
+                            
+                        </div>
+
+                        <div class="text-heading-3  ">
                             $230
                         </div>
                     </div>
@@ -375,27 +375,27 @@
             </div>
         </section>
 
-        <section class="flex flex-col lg:flex-row bg-green-500 mt-16 gap-7 p-4">
+        <section id="about" class="flex flex-col lg:flex-row  mt-20 gap-7 p-4">
 
-            <div class="flex-1 bg-purple-300 ">  <!--la div de gauche-->
+            <div class="flex-1  ">  <!--la div de gauche-->
                 
                 <h2 class="text-heading-2">Customer <span class="text-red">Feedback</span></h2>
-                <p class="">
+                <p class="text-gray-500">
                     I recently dined at your restaurant and wanted to share my experience. The food was absolutely 
                     delicious, and I was impressed by the freshness of the ingredients. Each dish was bursting with flavor, 
                     and the portion sizes were perfect. The service was quick and efficient, and the staff was incredibly friendly and welcoming.
                 </p>
 
-                <div class="bg-orange flex justify-between ">
-                    <div class="flex py-4 gap-3 bg-purple-400 pr-10">
-                        <div class="m-auto"><img class="rounded-full border border-black-100" src="/assets/img/section4/image-tayyab.jpg" alt="un de nos clients Tayyab Sohail"></div>
-                        <p class="m-auto bg-green-500 pr-9 py-3 text-nowrap">
+                <div class="flex justify-between ">
+                    <div class="flex py-4 gap-3  pr-10">
+                        <div class="m-auto"><img class="rounded-full border border-black-100" src="/src/assets/img/section4/image-tayyab.jpg" alt="un de nos clients Tayyab Sohail"></div>
+                        <p class="m-auto  pr-9 py-3 text-nowrap">
                             <span class="text-red text-heading-4">Tayyab Sohail</span> <br>
                             UX/UI Designer
                         </p>
                     </div>
 
-                    <div class="flex justify-between gap-3 bg-yellow-400 py-14 ml-auto">
+                    <div class="flex justify-between gap-3  py-14 ml-auto">
                         <div class="border border-red rounded-full p-2"></div>
                         <div class="border border-red rounded-full p-2 bg-red"></div>
                         <div class="border border-red rounded-full p-2"></div>
@@ -403,22 +403,22 @@
                 </div>
             </div>
 
-            <div class="flex flex-1 relative bg-orange rounded-lg w-[80%] py-60 justify-center m-auto rounded-tl-[500px]">
-                <img  class="lg:h-auto absolute bottom-0 h-auto w-auto" src="/assets/img/section4/image-chef.svg" alt="">
+            <div class="flex flex-1 relative bg-orange rounded-lg w-[80%] py-60 justify-center m-auto rounded-tl-[500px] mt-14">
+                <img  class="lg:h-auto absolute bottom-0 h-auto w-auto" src="/src/assets/img/section4/image-chef.svg" alt="">
             </div>
         </section>
 
-        <section class="flex flex-col text-center lg:text-left lg:flex-row lg:justify-between mt-10 p-6 bg-yellow-400 gap-4">
+        <section id="contact" class="flex flex-col text-center lg:text-left lg:flex-row lg:justify-between mt-14 p-6 gap-4">
             
             <div>
                 <h1 class="text-heading-medium">Join Our <span class="text-red">Newsletter</span></h1>
-                <p>
+                <p class="text-gray-500">
                     Be the first to know about our latest updates, exclusive offers, and more.
                 </p>
             </div>
 
-            <div class="bg-purple-400 flex gap-6 p-4">
-                <input class="rounded-lg py-3 px-36 border border-grey-700" type="text" placeholder="Enter your email address">
+            <div class=" flex gap-6 p-4">
+                <input class="rounded-lg py-3 px-36 border border-grey-500" type="text" placeholder="Enter your email address">
                 <input class="rounded-lg py-3 px-10 bg-red text-white-simple" type="submit" value="Suscribe">
             </div>
             
@@ -427,108 +427,109 @@
         <hr class="border-grey-600">
     </main>
 
-    <footer class="mt-10 bg-green-500">
+    <footer class="mt-14 ">
         <div class="grid grid-cols-3 lg:flex lg:p-3 gap-2">
 
-            <div class="bg-yellow-400 m-auto p-4 space-y-2">
+            <div class=" m-auto p-4 space-y-2">
                 <h2 class="text-heading-medium">Product & Service</h2>
-                <p>Products</p>
-                <p>Services</p>
-                <p>Appliances</p>
-                <div class="flex gap-3"> 
+                <p class="text-gray-500">Products</p>
+                <p class="text-gray-500">Services</p>
+                <p class="text-gray-500">Appliances</p>
+                <div class="flex gap-3 text-gray-500"> 
                     <p>Storage</p>  
                     <a class="text-orange border border-orange rounded-full px-3 bg-orange bg-opacity-30" href="">New</a> 
                 </div>
+                
 
-                <div class="flex bg-green-500 gap-4"> 
+                <div class="flex text-gray-500 gap-4">
                     <p>Lifestyle</p> 
-                    <a class="flex bg-red p-1" href=""> <img src="/assets/img/footer/arrow-target.svg" alt=""> </a> 
+                    <a class="flex  p-1" href=""> <img src="/src/assets/img/footer/arrow-target.svg" alt=""> </a> 
                 </div>
             </div>
 
-            <div class="bg-purple-400 m-auto p-4 space-y-2">
+            <div class=" m-auto p-4 space-y-2">
                 <h2 class="text-heading-medium">Shop Now</h2>
-                <p>Offers</p>
-                <p>Promos</p>
-                <p>Online Shop FAQ</p>
-                <div class="flex gap-3"> 
+                <p class="text-gray-500">Offers</p>
+                <p class="text-gray-500">Promos</p>
+                <p class="text-gray-500">Online Shop FAQ</p>
+                <div class="flex gap-3 text-gray-500"> 
                     <p>Business Offer</p>  
                     <a class="text-orange border border-orange rounded-full px-3 bg-orange bg-opacity-30" href="">New</a> 
                 </div>
 
-                <div class="flex bg-green-500 gap-4"> 
+                <div class="flex  gap-4 text-gray-500"> 
                     <p>Student Offer</p> 
-                    <a class="flex  p-1" href=""> <img src="/assets/img/footer/arrow-target.svg" alt=""> </a> 
+                    <a class="flex  p-1" href=""> <img src="/src/assets/img/footer/arrow-target.svg" alt=""> </a> 
                 </div>
             </div>
 
-            <div class="bg-yellow-400 m-auto p-4 space-y-2">
+            <div class=" m-auto p-4 space-y-2">
                 <h2 class="text-heading-medium">Support</h2>
-                <p>Contact</p>
-                <div class="flex gap-3"> 
+                <p class="text-gray-500">Contact</p>
+                <div class="flex gap-3 text-gray-500"> 
                     <p>Email Support</p> 
-                    <a class="flex p-1" href=""> <img src="/assets/img/footer/arrow-target.svg" alt=""> </a> 
+                    <a class="flex p-1" href=""> <img src="/src/assets/img/footer/arrow-target.svg" alt=""> </a> 
                 </div>
 
-                <div class="flex bg-green-500 gap-4"> 
+                <div class="flex  gap-4 text-gray-500"> 
                     <p>Live Chat</p> 
-                    <a href="" class="flex  p-1" > <img src="/assets/img/footer/arrow-target.svg" alt=""> </a> 
+                    <a href="" class="flex  p-1" > <img src="/src/assets/img/footer/arrow-target.svg" alt=""> </a> 
                 </div>
 
-                <p>Phone Support</p>
+                <p class="text-gray-500">Phone Support</p>
 
-                <div class="flex bg-green-500 gap-4"> 
+                <div class="flex  gap-4 text-gray-500"> 
                     <p>Community</p> 
-                    <a href="" class="flex  p-1"> <img src="/assets/img/footer/arrow-target.svg" alt=""> </a> 
+                    <a href="" class="flex  p-1"> <img src="/src/assets/img/footer/arrow-target.svg" alt=""> </a> 
                 </div>
             </div>
 
-            <div class="bg-yellow-400 m-auto p-4 space-y-2 hidden lg:block">
+            <div class=" m-auto p-4 space-y-2 hidden lg:block">
                 <h2 class="text-heading-medium">Account</h2>
-                <p>My Products</p>
-                <p>Orders</p>
-                <p>Whishlist</p>
-                <div class="flex gap-3"> 
+                <p class="text-gray-500">My Products</p>
+                <p class="text-gray-500">Orders</p>
+                <p class="text-gray-500">Whishlist</p>
+                <div class="flex gap-3 text-gray-600"> 
                     <p>Service</p>  
                     <a class="text-orange border border-orange rounded-full px-3 bg-orange bg-opacity-30" href="">New</a> 
                 </div>
 
-                <div class="flex bg-green-500 gap-4"> 
+                <div class="flex  gap-4 text-gray-500"> 
                     <p>Rewards</p> 
-                    <a class="flex bg-red p-1" href=""> <img src="/assets/img/footer/arrow-target.svg" alt=""> </a> 
+                    <a class="flex  p-1" href=""> <img src="/src/assets/img/footer/arrow-target.svg" alt=""> </a> 
                 </div>
             </div>
 
-            <div class="bg-yellow-400 m-auto p-4 space-y-2 hidden lg:block">
+            <div class=" m-auto p-4 space-y-2 hidden lg:block">
                 <h2 class="text-heading-medium">About</h2>
-                <p>Company Info</p>
-                <p>Brand Guidelines</p>
-                <p>Careers</p>
-                <div class="flex gap-3"> 
+                <p class="text-gray-500">Company Info</p>
+                <p class="text-gray-500">Brand Guidelines</p>
+                <p class="text-gray-500">Careers</p>
+                <div class="flex gap-3 text-gray-500"> 
                     <p>Investors</p>  
                     <div class="flex gap-1">
                         <a class="text-orange border border-orange rounded-full px-3 bg-orange bg-opacity-30" href="">New</a>
-                        <a class="flex bg-red p-1" href=""> <img src="/assets/img/footer/arrow-target.svg" alt=""> </a> 
+                        <a class="flex  p-1" href=""> <img src="/src/assets/img/footer/arrow-target.svg" alt=""> </a> 
                     </div> 
                 </div>
 
-                <div class="flex bg-green-500 gap-4"> 
+                <div class="flex  gap-4 text-gray-500"> 
                     <p>About Us</p> 
-                    <a class="flex bg-red p-1" href=""> <img src="/assets/img/footer/arrow-target.svg" alt=""> </a> 
+                    <a class="flex  p-1" href=""> <img src="/src/assets/img/footer/arrow-target.svg" alt=""> </a> 
                 </div>
             </div>
         </div>
 
         <hr class="border-grey-600">
 
-        <div class="bg-purple-400 flex justify-between">
-            <div class="flex justify-around p-4 gap-3">
-                <p class="bg-rose-400">English</p>
+        <div class=" flex justify-between p-5 ">
+            <div class="flex justify-around p-4 gap-3 text-gray-500 ">
+                <p class="">English</p>
                 <p>Privacy</p>
                 <p>Legal</p>
             </div>
 
-            <p class="text-gray-200 flex justify-center items-center">© 2023 Cadet UI. All Rights Reserved.</p>
+            <p class="text-gray-300 text-paragraph-2 flex justify-center items-center">© 2023 Cadet UI. All Rights Reserved.</p>
         </div>
     </footer>
 </body>

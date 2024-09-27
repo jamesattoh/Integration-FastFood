@@ -52,7 +52,7 @@
             </div>
 
             <div class="flex flex-1 relative bg-orange rounded-[70px] lg:py-56 h-3/4 w-[100%] py-60 justify-center items-center m-auto">
-                        <img class="lg:h-auto  absolute bottom-0 object-contain h-[110%]" src="/assets/img/section1/la-fille-plateau.svg" alt="l'une de nos jolies servantes">                    
+                        <img class="lg:h-auto  absolute bottom-0 object-contain h-auto w-auto" src="/assets/img/section1/la-fille-plateau.svg" alt="l'une de nos jolies servantes">                    
                 
                 <div class="absolute -left-[40px] -bottom-5 flex py-2 px-9 bg-white-simple rounded-[12px] shadow-custom-shadow">
                     <div>
@@ -375,67 +375,145 @@
             </div>
         </section>
 
-        <section>
-            <div>  <!--la div de gauche-->
-                <p>
-                    Customer Feedback <br>
+        <section class="flex flex-col lg:flex-row bg-green-500 mt-16 gap-7 p-4">
+
+            <div class="flex-1 bg-purple-300 ">  <!--la div de gauche-->
+                
+                <h2 class="text-heading-2">Customer <span class="text-red">Feedback</span></h2>
+                <p class="">
                     I recently dined at your restaurant and wanted to share my experience. The food was absolutely 
                     delicious, and I was impressed by the freshness of the ingredients. Each dish was bursting with flavor, 
                     and the portion sizes were perfect. The service was quick and efficient, and the staff was incredibly friendly and welcoming.
                 </p>
 
-                <div>
-                    <div>
-                        <img src="/assets/img/section4/image-tayyab.jpg" alt="un de nos clients Tayyab Sohail">
-                        <p>
-                            Tayyab Sohail <br>
+                <div class="bg-orange flex justify-between ">
+                    <div class="flex py-4 gap-3 bg-purple-400 pr-10">
+                        <div class="m-auto"><img class="rounded-full border border-black-100" src="/assets/img/section4/image-tayyab.jpg" alt="un de nos clients Tayyab Sohail"></div>
+                        <p class="m-auto bg-green-500 pr-9 py-3 text-nowrap">
+                            <span class="text-red text-heading-4">Tayyab Sohail</span> <br>
                             UX/UI Designer
                         </p>
                     </div>
 
-                    <div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                    <div class="flex justify-between gap-3 bg-yellow-400 py-14 ml-auto">
+                        <div class="border border-red rounded-full p-2"></div>
+                        <div class="border border-red rounded-full p-2 bg-red"></div>
+                        <div class="border border-red rounded-full p-2"></div>
                     </div>
                 </div>
             </div>
 
-            <div>
-                <img src="/assets/img/section4/back-vector.svg" alt="">
-                <img src="/assets/img/section4/image-chef.svg" alt="">
+            <div class="flex flex-1 relative bg-orange rounded-lg w-[80%] py-60 justify-center m-auto rounded-tl-[500px]">
+                <img  class="lg:h-auto absolute bottom-0 h-auto w-auto" src="/assets/img/section4/image-chef.svg" alt="">
             </div>
         </section>
 
-        <section>
+        <section class="flex flex-col text-center lg:text-left lg:flex-row lg:justify-between mt-10 p-6 bg-yellow-400 gap-4">
+            
             <div>
+                <h1 class="text-heading-medium">Join Our <span class="text-red">Newsletter</span></h1>
                 <p>
-                    Join Our Newsletter <br>
                     Be the first to know about our latest updates, exclusive offers, and more.
                 </p>
-
-                <div>
-                    <input type="text" placeholder="Enter your email address">
-                    <input type="submit" value="Suscribe">
-                </div>
             </div>
+
+            <div class="bg-purple-400 flex gap-6 p-4">
+                <input class="rounded-lg py-3 px-36 border border-grey-700" type="text" placeholder="Enter your email address">
+                <input class="rounded-lg py-3 px-10 bg-red text-white-simple" type="submit" value="Suscribe">
+            </div>
+            
         </section>
 
-        <hr>
+        <hr class="border-grey-600">
     </main>
 
-    <footer>
-        <div>
-            <p>Product & Service <br> Products <br>Services <br>Appliances <br>Storage <a href="">New</a> <br>Lifestyle <img src="/assets/img/footer/arrow-target.svg" alt=""></p>
-            <p>Shop Now<br> Offers <br>Promos <br>Online Shop FAQ <br>Business Offer <a href="">New</a> <br>Student Offer <img src="/assets/img/footer/arrow-target.svg" alt=""></p>
-            <p>Support<br> Contact <br>Email Support<img src="/assets/img/footer/arrow-target.svg" alt=""> <br>Live Chat<img src="/assets/img/footer/arrow-target.svg" alt=""> <br>Phone Support<br>Community <img src="/assets/img/footer/arrow-target.svg" alt=""></p>
-            <p>Account <br> Products <br>Orders <br>Wishlist <br>Service <a href="">New</a> <br>Rewards <img src="/assets/img/footer/arrow-target.svg" alt=""></p>
-            <p>About <br> Company Info <br>Brand Guidelines<br>Careers <br>Investors <a href="">New</a> <img src="/assets/img/footer/arrow-target.svg" alt=""><br>About Us <img src="/assets/img/footer/arrow-target.svg" alt=""></p>
+    <footer class="mt-10 bg-green-500">
+        <div class="flex flex-col gap-4">
+
+            <div class="bg-yellow-400 m-auto p-4">
+                <h2 class="text-heading-medium">Product & Service</h2>
+                <p>Products</p>
+                <p>Services</p>
+                <p>Appliances</p>
+                <div class="flex gap-4"> 
+                    <p>Storage</p>  
+                    <a class="text-orange border border-orange rounded-full px-3 bg" href="">New</a> 
+                </div>
+
+                <div> 
+                    <p>Lifestyle</p> 
+                    <a href=""> <img src="/assets/img/footer/arrow-target.svg" alt=""> </a> 
+                </div>
+            </div>
+
+            <div class="bg-purple-400">
+                <h2>Product & Service</h2>
+                <p>Products</p>
+                <p>Services</p>
+                <p>Appliances</p>
+                <div> 
+                    <p>Storage</p>  
+                    <a href="">New</a> 
+                </div>
+
+                <div> 
+                    <p>Lifestyle</p> 
+                    <a href=""> <img src="/assets/img/footer/arrow-target.svg" alt=""> </a> 
+                </div>
+            </div>
+
+            <div class="bg-yellow-400">
+                <h2>Product & Service</h2>
+                <p>Products</p>
+                <p>Services</p>
+                <p>Appliances</p>
+                <div> 
+                    <p>Storage</p>  
+                    <a href="">New</a> 
+                </div>
+
+                <div> 
+                    <p>Lifestyle</p> 
+                    <a href=""> <img src="/assets/img/footer/arrow-target.svg" alt=""> </a> 
+                </div>
+            </div>
+
+            <div class="bg-purple-400">
+                <h2>Product & Service</h2>
+                <p>Products</p>
+                <p>Services</p>
+                <p>Appliances</p>
+                <div> 
+                    <p>Storage</p>  
+                    <a href="">New</a> 
+                </div>
+
+                <div> 
+                    <p>Lifestyle</p> 
+                    <a href=""> <img src="/assets/img/footer/arrow-target.svg" alt=""> </a> 
+                </div>
+            </div>
+
+            <div class="bg-yellow-400">
+                <h2>Product & Service</h2>
+                <p>Products</p>
+                <p>Services</p>
+                <p>Appliances</p>
+                <div> 
+                    <p>Storage</p>  
+                    <a href="">New</a> 
+                </div>
+
+                <div> 
+                    <p>Lifestyle</p> 
+                    <a href=""> <img src="/assets/img/footer/arrow-target.svg" alt=""> </a> 
+                </div>
+            </div>
         </div>
 
-        <hr>
+        <hr class="border-grey-600">
 
-        <div>
+        <div class="bg-purple-400">
             <div>
                 <p>English</p>
                 <p>Privacy</p>

@@ -3,9 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-
       colors:{
-
         'red': '#F03328',
         'orange': '#FF9E0C',
         'orange-gradient': '#D58000',
@@ -40,12 +38,13 @@ module.exports = {
         'heading-3': ['32px', { fontWeight: '700' }],
         'heading-3-variant': ['32px', { fontWeight: '500' }],
         'heading-4': ['24px', { fontWeight: '700' }],
+        'heading-4-variant': ['22px', { fontWeight: '500' }],
         'heading-4-uppercase': ['24px', { fontWeight: '700', textTransform: 'uppercase' }],
         'heading-5': ['40px', { fontWeight: '700' }],
         'paragraph-1': ['18px', { fontWeight: '400' }],
         'paragraph-2': ['16px', { fontWeight: '400' }],
         'button': ['20px', { fontWeight: '700' }],
-        'hyperlink': ['20px', { fontWeight: '600' }],
+        'hyperlink': ['16px', { fontWeight: '600' }],
         'heading-medium': ['20px', {fontWeight: '500'}],
       },
 

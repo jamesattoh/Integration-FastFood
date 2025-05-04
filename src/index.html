@@ -9,27 +9,29 @@
     <link href="./output.css" rel="stylesheet">
 </head> 
 <body class="font-nunito w-full lg:w-11/12 m-auto px-4 lg:px-0">
-    <header class="sticky top-0 z-40 bg-white-simple flex justify-around lg:justify-between items-center text-center py-10 w-full max-w-[1440px] mx-auto px-4 lg:px-8">
-        <div class="text-heading-3 sm:text-heading-2 flex">
-            <img src="./assets/image-logo.svg" alt="le logo de notre restaurant" class="h-8 sm:h-12 mr-2 mt-2.5">
-            <p class="text-red">Foo<strong class="text-orange">die</strong></p>
-        </div>
+    <header class="sticky top-0 z-40 w-full bg-white-simple">
+        <div class="flex justify-between items-center text-center py-10 w-full max-w-[1440px] mx-auto px-4 lg:px-8">
+            <div class="text-heading-3 sm:text-heading-2 flex">
+                <img src="./assets/image-logo.svg" alt="le logo de notre restaurant" class="h-8 sm:h-12 mr-2 mt-2.5">
+                <p class="text-red">Foo<strong class="text-orange">die</strong></p>
+            </div>
 
-        <div class="hidden lg:flex text-heading-medium md:gap-12 text-gray-600">
-            <a href="#home" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">Home</a>
-            <a href="#choose" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">Our Menu</a>
-            <a href="#foods" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">Foods</a>
-            <a href="#about" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">About us</a>
-            <a href="#contact" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">Contact us</a>
-        </div>
+            <div class="hidden lg:flex text-heading-medium md:gap-12 text-gray-600">
+                <a href="#home" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">Home</a>
+                <a href="#choose" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">Our Menu</a>
+                <a href="#foods" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">Foods</a>
+                <a href="#about" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">About us</a>
+                <a href="#contact" class="text-black hover:decoration-red hover:underline hover:underline-offset-4 hover:text-red">Contact us</a>
+            </div>
 
-        <div>
-            <a href="" class="text-hyperlink text-red border-solid border-2 border-red rounded-full px-4 sm:px-8 py-1.5 sm:py-2 text-xs sm:text-base hover:text-orange hover:border-orange"><strong>Login</strong></a>
+            <div>
+                <a href="" class="text-hyperlink sm:text-base text-red border-solid border-2 border-red rounded-full px-4 sm:px-8 py-1.5 sm:py-2 hover:text-orange hover:border-orange"><strong>Login</strong></a>
+            </div>
         </div>
     </header>
 
-    <main class="">
-        <div id="home" class="flex flex-col lg:flex-row mt-6 max-w-[1440px] mx-auto px-4 lg:px-8 space-y-36 lg:space-y-0 lg:gap-6 lg:justify-between">
+    <main class="w-full">
+        <div id="home" class="flex flex-col lg:flex-row w-full max-w-[1440px] mx-auto px-4 lg:px-8 space-y-24 sm:space-y-36 lg:space-y-24 lg:gap-6 lg:justify-between">
             <div class="flex-1 flex flex-col lg:justify-center justify-between gap-4 pb-3 text-center lg:text-left">
                 
                 <div class="text-heading-5 sm:text-heading-1">
@@ -49,14 +51,14 @@
                 </div>
             </div>
 
-            <div class="flex flex-1 relative bg-orange rounded-[70px] lg:py-56 h-[400px] sm:h-[500px] lg:h-auto w-full justify-center items-center">
-                <img class="lg:h-auto absolute bottom-0 object-contain h-[95%] w-auto" src="./assets/img/section1/la-fille-plateau.svg" alt="l'une de nos jolies servantes">                    
+            <div class="flex flex-1 relative bg-orange rounded-[70px] w-[80%] py-28 sm:py-60 justify-center m-auto max-md:rounded-tl-[500px] mt-8 sm:mt-14">
+                <img class="lg:h-auto absolute bottom-0 h-[95%] w-auto object-contain object-bottom" src="./assets/img/section1/la-fille-plateau.svg" alt="l'une de nos jolies servantes">                    
                 
-                <div class="absolute -left-4 lg:-left-[40px] -bottom-5 flex py-1.5 sm:py-2 px-4 sm:px-9 bg-white-simple rounded-[12px] shadow-custom-shadow">
+                <div class="absolute -left-7 sm:-left-4 lg:-left-[40px] -bottom-5 flex justify-center items-center py-1.5 sm:py-2 px-1 sm:px-5 bg-white-simple rounded-[12px] shadow-custom-shadow">
                     <div>
                         <img class="w-8 sm:w-auto rounded-full border border-black-100" src="./assets/img/section1/image-ali.jpg" alt="photo d'un de nos clients Ali">
                     </div>
-                    <div class="space-y-1 sm:space-y-2.5 pl-2 sm:pl-3">
+                    <div class="space-y-1 sm:space-y-2.5 pl-2 sm:pl-3 ">
                         <h2 class="text-sm sm:text-base">Ali Ahmad</h2>
                         <div class="flex gap-2 text-gray-500 text-xs sm:text-base">
                             <div class="flex items-center gap-1">
@@ -71,7 +73,7 @@
                     </div>
                 </div>
 
-                <div class="absolute -left-4 lg:-left-[50px] top-20 flex py-2 sm:py-3 px-3 sm:px-7 bg-white-simple rounded-[12px] shadow-custom-shadow">
+                <div class="absolute -left-7 sm:-left-4 lg:-left-[50px] top-14 sm:top-32 flex justify-center items-center py-2 sm:py-3 px-2 sm:px-5 bg-white-simple rounded-[12px] shadow-custom-shadow">
                     <div>
                         <img class="h-6 sm:h-auto" src="./assets/img/section1/image-delivery.jpg" alt="notre rapidité de livraison">
                     </div>
@@ -81,7 +83,7 @@
                     </div>
                 </div>
 
-                <div class="absolute -right-4 lg:-right-10 bottom-5 flex py-2 sm:py-3 px-3 sm:px-9 bg-white-simple rounded-[12px] shadow-custom-shadow">
+                <div class="absolute -right-12 sm:-right-4 lg:-right-10 bottom-5 flex justify-center items-center py-2 sm:py-3 px-2 sm:px-5 bg-white-simple rounded-[12px] shadow-custom-shadow">
                     <div>
                         <img class="h-6 sm:h-auto" src="./assets/img/section1/image-position.jpg" alt="notre maîtrise de la map">
                     </div>
@@ -93,13 +95,13 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 px-4 lg:px-0 mt-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 px-4 lg:px-0 mt-32 sm:mt-36">
             <div class="bg-white rounded-[15px] shadow-custom-shadow">
                 <div class="flex justify-center items-center p-4">
                     <img class="h-32 md:h-40 w-auto" src="./assets/img/section2-1/image-certified.jpg" alt="certification">
                 </div>
                 <div class="text-center p-4 space-y-4">
-                    <h3 class="text-heading-3 text-black-simple">Quality Food</h3>
+                    <h3 class="text-heading-4 sm:text-heading-3 text-black-simple">Quality Food</h3>
                     <p class="text-paragraph-2 text-gray-500">
                         Contrary to popular belief, Lorem Ipsum is not simply random text
                     </p>
@@ -112,7 +114,7 @@
                     <img class="h-32 md:h-40 w-auto" src="./assets/img/section2-1/image-speed.jpg" alt="rapidité">
                 </div>
                 <div class="text-center p-4 space-y-4">
-                    <h3 class="text-heading-3 text-black-simple">Quality Food</h3>
+                    <h3 class="text-heading-4 sm:text-heading-3 text-black-simple">Quality Food</h3>
                     <p class="text-paragraph-2 text-gray-500">
                         Contrary to popular belief, Lorem Ipsum is not simply random text
                     </p>
@@ -125,7 +127,7 @@
                     <img class="h-32 md:h-40 w-auto" src="./assets/img/section2-1/image-wallet.jpg" alt="économie">
                 </div>
                 <div class="text-center p-4 space-y-4">
-                    <h3 class="text-heading-3 text-black-simple">Quality Food</h3>
+                    <h3 class="text-heading-4 sm:text-heading-3 text-black-simple">Quality Food</h3>
                     <p class="text-paragraph-2 text-gray-500">
                         Contrary to popular belief, Lorem Ipsum is not simply random text
                     </p>
@@ -138,7 +140,7 @@
                     <img class="h-32 md:h-40 w-auto" src="./assets/img/section2-1/image-phone.jpg" alt="simplification">
                 </div>
                 <div class="text-center p-4 space-y-4">
-                    <h3 class="text-heading-3 text-black-simple">Quality Food</h3>
+                    <h3 class="text-heading-4 sm:text-heading-3 text-black-simple">Quality Food</h3>
                     <p class="text-paragraph-2 text-gray-500">
                         Contrary to popular belief, Lorem Ipsum is not simply random text
                     </p>
@@ -147,7 +149,7 @@
             </div>
         </div>
 
-        <section id="choose" class="flex flex-col lg:flex-row gap-8 mt-32 ">
+        <section id="choose" class="flex flex-col lg:flex-row w-full max-w-[1440px] mx-auto px-1 lg:px-4 gap-8 mt-32 sm:mt-36">
             <div class="flex-1 lg:max-w-[50%] flex items-center">
                 <div class="aspect-square w-full max-w-[500px] m-auto">
                     <img class="w-full h-full object-cover rounded-[15px]" src="./assets/img/section2-2/image-salad.jpg" alt="comment nos plats sont présentés">
@@ -155,14 +157,14 @@
             </div>
 
             <div class="flex-1 flex flex-col text-center lg:text-left p-4 lg:p-8 justify-center gap-6 pt-0">
-                <h2 class="text-heading-2">Why People Choose us?</h2>
+                <h2 class="text-heading-3 sm:text-heading-2 ">Why People Choose us?</h2>
 
                 <div class="flex items-center rounded-[10px] px-3 gap-4 py-2 shadow-custom-shadow">
                     <div class="rounded-full bg-white-simple p-4 shadow-custom-shadow shrink-0">
                         <img class="w-8 h-8" src="./assets/img/section2-2/icons/deliver.jpg" alt="nos livreurs expérimentés">
                     </div>
                     <p class="text-left text-gray-600">
-                        <span class="text-heading-3-variant text-black-simple">Convenient and Reliable</span><br>
+                        <span class="text-heading-4-variant sm:text-heading-3-variant text-black-simple">Convenient and Reliable</span><br>
                         Whether you dine in, take out, or order delivery, our service is convenient, fast, and reliable, making mealtime hassle-free.
                     </p>
                 </div>
@@ -172,7 +174,7 @@
                         <img class="w-8 h-8" src="./assets/img/section2-2/icons/option.jpg" alt="variété de nos options">
                     </div>
                     <p class="text-left text-gray-600">
-                        <span class="text-heading-3-variant text-black-simple">Variety of Options</span><br>
+                        <span class="text-heading-4-variant sm:text-heading-3-variant text-black-simple">Variety of Options</span><br>
                         From hearty meals to light snacks, we offer a wide range of options to suit every taste and craving.
                     </p>
                 </div>
@@ -182,15 +184,15 @@
                         <img class="w-8 h-8" src="./assets/img/section2-2/icons/burger.jpg" alt="la particularité de nos burgers">
                     </div>
                     <p class="text-left text-gray-600">
-                        <span class="text-heading-3-variant text-black-simple">Eat Burger</span><br>
+                        <span class="text-heading-4-variant sm:text-heading-3-variant text-black-simple">Eat Burger</span><br>
                         Our burgers are grilled to perfection, with juicy patties and flavorful toppings that make every bite a delicious experience.
                     </p>
                 </div>
             </div>
         </section>
 
-        <section id="foods" class="flex flex-col  mt-32 lg:mt-40 text-center">
-            <p class=" text-paragraph-1 pb-10 "> <span class="text-heading-2">Our best Seller Dishes🔥🔥 </span><br>
+        <section id="foods" class="flex flex-col mt-24 sm:mt-32 text-center">
+            <p class=" text-paragraph-1 pb-10 "> <span class="text-heading-3 sm:text-heading-2 ">Our best Seller Dishes🔥🔥 </span><br>
                 <span class="text-gray-500">Our fresh garden salad is a light and refreshing option. It features a mix of crisp lettuce, juicy tomatoe all tossed in your choice of dressing.</span>
             </p>
 
@@ -218,15 +220,13 @@
                         <div class="flex flex-col justify-around items-end">
                             <a class="text-hyperlink bg-red text-white-simple border-2 border-red rounded-full px-3 lg:px-4 py-2 text-sm lg:text-base whitespace-nowrap" href="">Buy Now</a>
                             
-                            <div class="text-heading-3">
+                            <div class="text-heading-4 sm:text-heading-3">
                                 $230
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Répéter la même structure pour les 5 autres cartes -->
-                <!-- Carte 2 -->
                 <div class="bg-white rounded-b-[15px] shadow-custom-shadow overflow-hidden">
                     <div class="w-full h-[230px] lg:h-[270px]">
                         <img class="w-full h-full object-cover" src="./assets/img/section3/plate2.jpg" alt="photo d'un premier plat">
@@ -250,14 +250,13 @@
                         <div class="flex flex-col justify-around items-end">
                             <a class="text-hyperlink bg-red text-white-simple border-2 border-red rounded-full px-3 lg:px-4 py-2 text-sm lg:text-base whitespace-nowrap" href="">Buy Now</a>
                             
-                            <div class="text-heading-3">
+                            <div class="text-heading-4 sm:text-heading-3">
                                 $230
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Carte 3 -->
                 <div class="bg-white rounded-b-[15px] shadow-custom-shadow overflow-hidden">
                     <div class="w-full h-[230px] lg:h-[270px]">
                         <img class="w-full h-full object-cover" src="./assets/img/section3/plate4.jpg" alt="photo d'un premier plat">
@@ -281,14 +280,13 @@
                         <div class="flex flex-col justify-around items-end">
                             <a class="text-hyperlink bg-red text-white-simple border-2 border-red rounded-full px-3 lg:px-4 py-2 text-sm lg:text-base whitespace-nowrap" href="">Buy Now</a>
                             
-                            <div class="text-heading-3">
+                            <div class="text-heading-4 sm:text-heading-3">
                                 $230
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Carte 4 -->
                 <div class="bg-white rounded-b-[15px] shadow-custom-shadow overflow-hidden">
                     <div class="w-full h-[230px] lg:h-[270px]">
                         <img class="w-full h-full object-cover" src="./assets/img/section3/plate5.jpg" alt="photo d'un premier plat">
@@ -312,14 +310,13 @@
                         <div class="flex flex-col justify-around items-end">
                             <a class="text-hyperlink bg-red text-white-simple border-2 border-red rounded-full px-3 lg:px-4 py-2 text-sm lg:text-base whitespace-nowrap" href="">Buy Now</a>
                             
-                            <div class="text-heading-3">
+                            <div class="text-heading-4 sm:text-heading-3">
                                 $230
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Carte 5 -->
                 <div class="bg-white rounded-b-[15px] shadow-custom-shadow overflow-hidden">
                     <div class="w-full h-[230px] lg:h-[270px]">
                         <img class="w-full h-full object-cover" src="./assets/img/section3/plate6.jpg" alt="photo d'un premier plat">
@@ -343,14 +340,13 @@
                         <div class="flex flex-col justify-around items-end">
                             <a class="text-hyperlink bg-red text-white-simple border-2 border-red rounded-full px-3 lg:px-4 py-2 text-sm lg:text-base whitespace-nowrap" href="">Buy Now</a>
                             
-                            <div class="text-heading-3">
+                            <div class="text-heading-4 sm:text-heading-3">
                                 $230
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Carte 6 -->
                 <div class="bg-white rounded-b-[15px] shadow-custom-shadow overflow-hidden">
                     <div class="w-full h-[230px] lg:h-[270px]">
                         <img class="w-full h-full object-cover" src="./assets/img/section3/plate3.jpg" alt="photo d'un premier plat">
@@ -374,7 +370,7 @@
                         <div class="flex flex-col justify-around items-end">
                             <a class="text-hyperlink bg-red text-white-simple border-2 border-red rounded-full px-3 lg:px-4 py-2 text-sm lg:text-base whitespace-nowrap" href="">Buy Now</a>
                             
-                            <div class="text-heading-3">
+                            <div class="text-heading-4 sm:text-heading-3">
                                 $230
                             </div>
                         </div>
@@ -383,9 +379,9 @@
             </div>
         </section>
 
-        <section id="about" class="flex flex-col lg:flex-row mt-20 gap-7 p-4">
+        <section id="about" class="flex flex-col lg:flex-row mt-6 lg:mt-32 w-full max-w-[1440px] mx-auto px-4 lg:px-8 space-y-24 sm:space-y-36 lg:space-y-0 lg:gap-6 lg:justify-between">
             <div class="flex-1">
-                <h2 class="text-heading-2">Customer <span class="text-red">Feedback</span></h2>
+                <h2 class="text-heading-3 sm:text-heading-2 ">Customer <span class="text-red">Feedback</span></h2>
                 <p class="text-gray-500">
                     I recently dined at your restaurant and wanted to share my experience. The food was absolutely 
                     delicious, and I was impressed by the freshness of the ingredients. Each dish was bursting with flavor, 
@@ -526,8 +522,11 @@
                 <p>Legal</p>
             </div>
 
-            <p class="text-gray-300 text-paragraph-2 text-center">© 2023 Cadet UI. All Rights Reserved.</p>
+            <p class="text-gray-300 text-paragraph-2 text-center">© <span id="current-year"></span> Dolgen UI. All Rights Reserved.</p>
         </div>
     </footer>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>                                                     
